@@ -1,2 +1,52 @@
 site_name: Accela
 theme: readthedocs
+nav:
+  - Home: 'index.md'
+  - 'Commands':
+    - 'Admin':
+      - 'Config': './commands/admin/config.md'
+      - 'Prefix': './commands/admin/prefix.md'
+      - 'Ban': './commands/admin/ban.md'
+      - 'Soft Ban': './commands/admin/soft-ban.md'
+      - 'Kick': './commands/admin/kick.md'
+      - 'Mute': './commands/admin/mute.md'
+      - 'Temp Mute': './commands/admin/temp-mute.md'
+      - 'Unmute': './commands/admin/unmute.md'
+    - 'osu!':
+      - 'Link': './commands/osu/link.md'
+      - 'Unlink': './commands/osu/unlink.md'
+      - 'Top': './commands/osu/top.md'
+      - 'Recent': './commands/osu/recent.md'
+      - 'Compare': './commands/osu/compare.md'
+      - 'Osu': './commands/osu/osu.md'
+      - 'Mania': './commands/osu/mania.md'
+      - 'Mania Recent': './commands/osu/mania-recent.md'
+      - 'Taiko': './commands/osu/taiko.md'
+      - 'Catch': './commands/osu/catch.md'
+      - 'Map': './commands/osu/map.md'
+      - 'PP Calculator': './commands/osu/calc.md'
+    - 'Fun':
+      - 'Anime': './commands/fun/anime.md'
+      - 'Manga': './commands/fun/manga.md'
+      - 'Play More': './commands/fun/play.md'
+    - 'Utility':
+      - 'Help': './commands/utility/help.md'
+      - 'Ping': './commands/utility/ping.md'
+      - 'Avatar': './commands/utility/avatar.md'
+      - 'Bot Info': './commands/utility/bot-info.md'
+      - 'User Info': './commands/utility/user-info.md'
+      - 'Server Info': './commands/utility/server-info.md'
+      - 'Invite': './commands/utility/invite.md'
+      - 'Support': './commands/utility/support.md'
+      - 'Repo': './commands/utility/repo.md'
+    - 'Owner':
+      - 'Reload': './commands/owner/reload.md'
+      - 'Shutdown': './commands/owner/shutdown.md'
+      - 'Eval': './commands/owner/eval.md'
+      - 'Error': './commands/owner/error.md'
+      - 'Server List': './commands/owner/server-list.md'
+      - 'CBT': './commands/owner/cbt.md'
+      - 'Command Test': './commands/owner/cmd-test.md'
+      - 'Test': './commands/owner/test.md'
+      - 'osu! Test': './commands/owner/osu-test'
+      - 'osu! Top': './commands/owner/osutop.md'
